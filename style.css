@@ -57,7 +57,13 @@ body {
   display: block;
   width: 10px;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 50px;
+}
+.inputtxt {
+  width: 30% !important;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid blue !important;
 }
 .txt {
   background-color: black;
@@ -140,12 +146,7 @@ input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-.inputtxt {
-  width: 30%;
-  height: 40px;
-  border-radius: 25px;
-  border: 1px solid blue;
-}
+
 
 /* Overwrite default styles of hr */
 hr {
@@ -228,10 +229,11 @@ button:hover {
 
 /* Avatar image */
 .avatar1 {
+  
   height: 100px;
   width: auto;
   margin-right: 5px;
-padding-left: 660px;
+padding-left: 800px;
 
 
 }
@@ -255,10 +257,21 @@ padding-left: 660px;
 .hr1 {
   border-top: 5px solid black;
 }
-.inputtxt {
-  width: 30% !important;
+footer {
+  background-color: black;
+  height: 70px;
+  width: 100%;
+}
+.footertext {
+  text-align: center;
+  color: white;
+  top: 20%;
+  position: relative;
+}
+.logininput {
+  width: 100% !important;
   height: 40px;
   border-radius: 25px;
-  border: 1px solid blue !important;
+  border: 1px solid black !important;
+ 
 }
-
